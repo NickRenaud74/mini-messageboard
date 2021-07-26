@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<a href="/new">Write a new message</a>
+<ul class="message-list">
+    {{#each messages}}
+        <li class="message">
+            <div class="text">{{this.text}}</div>
+            <div class="author"> ~ <em>{{this.user}}</em></div>
+            <div class="date">{{this.added}}</div>
+        </li>
+    {{/each}}
+</ul>
