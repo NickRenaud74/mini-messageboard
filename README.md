@@ -9,5 +9,5 @@ Live: [https://mini-messageboard.herokuapp.com/]
 
 ## Setup
 
-To install project dependencies run `npm install` in the CLI.
-To run in dev mode with live debugging run `npm run serverstart`
+- To install project dependencies run `npm install` in the CLI.
+- To run in dev mode with live debugging run `npm run serverstart`
